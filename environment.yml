@@ -1,0 +1,24 @@
+name: RecGNN
+channels:
+  - pytorch
+  - rusty1s
+  - nvidia
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.8
+  - pytorch=1.9
+  - cudatoolkit=11.1
+  - numpy=1.21
+  - networkx=2.5
+  - matplotlib
+  - pytorch-geometric
+  - pytorch-scatter
+  - pytorch-sparse
+  - torchvision
+  - scikit-learn
+  - ogb
+  - pip:
+    - test_tube
+    - setuptools==59.5.0
+    - attrdict
