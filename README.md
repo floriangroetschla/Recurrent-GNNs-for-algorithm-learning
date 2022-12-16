@@ -1,6 +1,20 @@
 # RecGNN
 This repo contains the code to reproduce all results of the paper **Learning Graph Algorithms with Recurrent Graph Neural Networks**.
 
+To cite our work:
+
+```latex
+@article{AlgorithmicRecurrentGNN2022,
+  title = {Learning Graph Algorithms With Recurrent Graph Neural Networks},
+  author = {Grötschla, Florian and Mathys, Joël and Wattenhofer, Roger},
+  url = {https://arxiv.org/abs/2212.04934},
+  publisher = {arXiv},
+  year={2022}
+}
+```
+
+
+
 ## Setup
 The necessary conda environment can be set up as follows:
 ```bash
